@@ -1,0 +1,42 @@
+Results for congestion parameter 0.5
+Decision boundaries. Obj_1
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.653865098378391	0.6612571276985124	0.6563474514787366	0.6612571276985124	0.6612571276985124
+Decision boundaries. Obj_2
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.695033729467344	0.7069555402262118	0.6986866627459958	0.7069555402262118	0.7309886199200436
+Relative errors. Obj_1
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.011178751820565103	0.0	0.0074247611316701845	0.0	0.0
+Relative errors. Obj_2
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.049186662381464165	0.03287750183643161			0.044189411837329357	0.03287750183643161			0.0
+
+Results for congestion parameter 0.7
+Decision boundaries. Obj_1
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.6699378182388983	0.679998922758603	0.6699378182388983	0.679998922758603	0.679998922758603
+Decision boundaries. Obj_2
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.7131639802712019	0.729553214692812	0.7167661274719189	0.729553214692812	0.7560161778190616
+Relative errors. Obj_1
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.014795765379875918	0.0	0.014795765379875918	0.0	0.0
+Relative errors. Obj_2
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.05668158804680449	0.035003170438216526			0.05191694503201022	0.035003170438216526			0.0
+
+Results for congestion parameter 0.9
+Decision boundaries. Obj_1
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.6908357036388698	0.7012929040115394	0.6908357036388698	0.7012929040115394	0.7012929040115394
+Decision boundaries. Obj_2
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.7295927213193825	0.7424169397524447	0.735038548223989	0.7497264607563421	0.7928252858336413
+Relative errors. Obj_1
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.014911316388419565	0.0	0.014911316388419565	0.0	0.0
+Relative errors. Obj_2
+Noise coupling 		 Noise iterative 	 MC coupling 		 MC iterative 		 SSA
+0.07975598867002705	0.06358064882881875			0.07288710216764928	0.05436106270498374			0.0
+

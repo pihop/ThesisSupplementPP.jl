@@ -1,0 +1,50 @@
+using DiffEqBiological
+
+function create_grid(dimX, dimY)
+    return CartesianIndices(collect(Iterators.product(1:dimX, 1:dimY)))
+end
+
+m_grid = create_grid(2,2)
+L = LinearIndices(m_grid)
+
+rn_full = @reaction_network begin
+  (1-z_1)*rm, x_1 --> x_2
+  (1-z_1)*0.5*rm, x_2 --> x_3
+  (1-z_1)*0.5*rm, x_3 --> x_4
+  (1-z_1)*rm, x_4 --> x_3
+  (1-z_1)*0.5*rm, x_3 --> x_2
+  (1-z_1)*0.5*rm, x_2 --> x_1
+  (1-z_1)*rs, x_4 --> x_4 + z_1
+
+  (z_1-z_2)*rm, x_1 --> x_2
+  (z_1-z_2)*rm, x_2 --> x_3
+  (z_1-z_2)*rm, x_3 --> x_4
+  (z_1-z_2)*0.01*rs, x_4 --> x_4 + z_2
+
+  (z_2)*rm, x_1 --> x_2
+  (z_2)*0.5*rm, x_2 --> x_3
+  (z_2)*0.5*rm, x_3 --> x_4
+  (z_2)*rm, x_4 --> x_3
+  (z_2)*0.5*rm, x_3 --> x_2
+  (z_2)*0.5*rm, x_2 --> x_1
+end rm rs
+
+rn_mode_1 = @reaction_network begin
+  rm, x_1 --> x_2
+  0.5*rm, x_2 --> x_3
+  0.5*rm, x_3 --> x_4
+  rm, x_4 --> x_3
+  0.5*rm, x_3 --> x_2
+  0.5*rm, x_2 --> x_1
+end rm rs
+
+rn_mode_2 = @reaction_network begin
+  rm, x_1 --> x_2
+  rm, x_2 --> x_3
+  rm, x_3 --> x_4
+end rm rs
+
+scaling = 100
+tspan = (0., 100.)
+sampling = 200
+tplot = range(0.0, stop=tspan[2], length=sampling) 

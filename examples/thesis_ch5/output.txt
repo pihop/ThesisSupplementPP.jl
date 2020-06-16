@@ -1,0 +1,186 @@
+Timings for the maze example
+Timings for fluid
+Mean timings for parameters population size 100
+Coupling 0.0010899955306122448 	 Iterative 0.14848760965306124 	 Simulation 2.009931268244898 (11.12136295159184)
+Timings for LNA
+Mean timings for parameters population size 100
+Coupling 0.002483994959183673 	 Iterative 1.2948501137959183 	 Simulation 2.009931268244898 (11.12136295159184)
+Timings for MC
+Mean timings for parameters population size 100
+Coupling 0.3487035639387755 	 Iterative 3.6084304398571434 	 Simulation 2.009931268244898 (11.12136295159184)
+
+
+Timings for fluid
+Mean timings for parameters population size 200
+Coupling 0.001189411775510204 	 Iterative 0.1428237625918367 	 Simulation 7.1168332325102055 (17.277038610387752)
+Timings for LNA
+Mean timings for parameters population size 200
+Coupling 0.003051690612244897 	 Iterative 1.298538368102041 	 Simulation 7.1168332325102055 (17.277038610387752)
+Timings for MC
+Mean timings for parameters population size 200
+Coupling 0.3784383385918368 	 Iterative 3.6007106622653056 	 Simulation 7.1168332325102055 (17.277038610387752)
+
+
+Timings for fluid
+Mean timings for parameters population size 300
+Coupling 0.0012909045102040817 	 Iterative 0.14471521146938776 	 Simulation 10.94773869342857 (22.992193508204085)
+Timings for LNA
+Mean timings for parameters population size 300
+Coupling 0.0028222580204081632 	 Iterative 1.3414499961428572 	 Simulation 10.94773869342857 (22.992193508204085)
+Timings for MC
+Mean timings for parameters population size 300
+Coupling 0.4144133268163266 	 Iterative 4.0189499010204095 	 Simulation 10.94773869342857 (22.992193508204085)
+
+
+Timings for fluid
+Mean timings for parameters population size 500
+Coupling 0.0011217964693877548 	 Iterative 0.14768084914285717 	 Simulation 16.555826419163264 (31.223377318653068)
+Timings for LNA
+Mean timings for parameters population size 500
+Coupling 0.0026903926122448982 	 Iterative 1.3742733164489798 	 Simulation 16.555826419163264 (31.223377318653068)
+Timings for MC
+Mean timings for parameters population size 500
+Coupling 0.4302218079591838 	 Iterative 4.10390756832653 	 Simulation 16.555826419163264 (31.223377318653068)
+
+
+Timings for fluid
+Mean timings for parameters population size 1000
+Coupling 0.001073125387755102 	 Iterative 0.1529425611020408 	 Simulation 27.219503947877563 (51.23349029771429)
+Timings for LNA
+Mean timings for parameters population size 1000
+Coupling 0.003257419693877552 	 Iterative 1.4374681888571428 	 Simulation 27.219503947877563 (51.23349029771429)
+Timings for MC
+Mean timings for parameters population size 1000
+Coupling 0.45712119808163276 	 Iterative 4.3778800955510215 	 Simulation 27.219503947877563 (51.23349029771429)
+
+
+Mean maximum error analysis (for mean statistics)
+MAZE EXAMPLE
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+100 		 14.494454661768398 (7.214755626403389) % 	 39.396336003346605
+Iterative
+100 		 7.328314323316546 (3.223855863717849) % 	 17.378168452751666
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+200 		 9.90239011903311 (6.342198854793837) % 	 33.730775402099326
+Iterative
+200 		 4.348399211274086 (2.5251592746584417) % 	 13.467543720778776
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+300 		 7.818485675604942 (5.278036612284887) % 	 28.662194306547473
+Iterative
+300 		 3.189690524388223 (1.8780534780751565) % 	 10.134176954539877
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+500 		 5.885551986615303 (4.1828325357339455) % 	 21.921644880327072
+Iterative
+500 		 2.2277767513725104 (1.408664306799012) % 	 7.061370030248912
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+1000 		 3.9844388037849168 (2.97221115363425) % 	 15.724826766533829
+Iterative
+1000 		 1.377497000890694 (1.0418780523609101) % 	 4.886986067996037
+
+
+THREE MODE EXAMPLE
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+100 		 2.422432077998675 (2.9037915507078362) % 	 13.484781848352675
+Iterative
+100 		 1.7148566733010226 (1.6188284520769345) % 	 6.9113065689217015
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+200 		 1.4733532196403103 (1.8498777922797829) % 	 8.54898701720883
+Iterative
+200 		 1.241974822500291 (1.3377548297823958) % 	 5.813292837058441
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+300 		 1.1363491934355499 (1.4709579193730886) % 	 6.939927871285742
+Iterative
+300 		 1.0231756919119404 (1.1460726411766884) % 	 5.1121717769230575
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+500 		 0.8352929838254497 (1.021349962897787) % 	 4.686921599331577
+Iterative
+500 		 0.7440673063119267 (0.9563299174635917) % 	 4.173621808411002
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+1000 		 0.5758930805238455 (0.6984803453293006) % 	 3.2876017314993193
+Iterative
+1000 		 0.5143288786529777 (0.7587344012959019) % 	 3.399472253921237
+
+
+Mean maximum error analysis (for variance statistics)
+MAZE EXAMPLE
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+100 		 18.368150419916383 (7.937577520859379) % 	 41.53967740009458
+Iterative
+100 		 18.365966145698273 (7.932539680850037) % 	 41.517518612046615
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+200 		 13.64150159752731 (7.548175723656489) % 	 37.763991001437034
+Iterative
+200 		 13.641211747520593 (7.546968946414559) % 	 37.758020317973646
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+300 		 11.38893205694696 (7.001582024656164) % 	 34.84915744333368
+Iterative
+300 		 11.388877990629478 (7.001132091992508) % 	 34.846886051481654
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+500 		 9.082880503939792 (6.180227791288221) % 	 30.581813382201762
+Iterative
+500 		 9.08289627712464 (6.1801264461384955) % 	 30.58128510582831
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+1000 		 6.643553120230491 (4.932760071250801) % 	 24.365887541930547
+Iterative
+1000 		 6.643564580201554 (4.932747376473013) % 	 24.365825043770215
+
+
+THREE MODE EXAMPLE
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+100 		 10.656354426990436 (7.889514442534241) % 	 35.03603188101579
+Iterative
+100 		 10.657660480604417 (7.889484069135124) % 	 35.036479345819295
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+200 		 7.932917896884308 (6.8604382518973095) % 	 30.664136410199276
+Iterative
+200 		 7.933348045297691 (6.860471375418502) % 	 30.66446920244551
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+300 		 6.608518291678384 (6.1238267672603826) % 	 27.351725627827417
+Iterative
+300 		 6.608736882255157 (6.123867504246048) % 	 27.351962237361153
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+500 		 5.164425962943803 (5.21166367673288) % 	 23.262042917522546
+Iterative
+500 		 5.16451859441482 (5.211685589879471) % 	 23.262176164564277
+
+Population size 	 mean (sd) 				 maximum
+Direct coupling
+1000 		 3.6721071945013706 (4.012815372442626) % 	 18.213326416985296
+Iterative
+1000 		 3.672135051653653 (4.0128250106110235) % 	 18.213376855975177
+
+
